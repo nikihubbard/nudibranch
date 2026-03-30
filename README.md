@@ -24,37 +24,37 @@ ggplot(data, aes(x, y, colour = group)) +
 ## Palettes
 
 ### Hydatina
-![hydatina](man/figures/01 Hydatina.png)
+![hydatina](man/figures/01_Hydatina.png)
 
 ### Hypselodoris
-![hypselodoris](man/figures/02 Hypselodoris.png)
+![hypselodoris](man/figures/02_Hypselodoris.png)
 
 ### Doriprismatica
-![bullina](man/figures/03 Doriprismatica.png)
+![bullina](man/figures/03_Doriprismatica.png)
 
 ### Bullina
-![elysia](man/figures/04 Bullina.png)
+![elysia](man/figures/04_Bullina.png)
 
 ### Elysia
-![dolabrifera](man/figures/05 Elysia.png)
+![dolabrifera](man/figures/05_Elysia.png)
 
 ### Dolabrifera
-![carminodoris](man/figures/06 Dolabrifera.png)
+![carminodoris](man/figures/06_Dolabrifera.png)
 
 ### Dendrodoris
-![dendrodoris](man/figures/07 Dendrodoris.png)
+![dendrodoris](man/figures/07_Dendrodoris.png)
 
 ### Aplysia
-![aplysia](man/figures/08 Aplysia.png)
+![aplysia](man/figures/08_Aplysia.png)
 
 ### Haloa
-![haloa](man/figures/09 Haloa.png)
+![haloa](man/figures/09_Haloa.png)
 
 ### Carminodoris
-![ceratosoma](man/figures/010 Carminodoris.png)
+![ceratosoma](man/figures/010_Carminodoris.png)
 
 ### Jorunna
-![jorunna](man/figures/011 Jorunna.png)
+![jorunna](man/figures/011_Jorunna.png)
 
 ### Ceratosama
-![doriprismatica](man/figures/012 Ceratosama.png)
+![doriprismatica](man/figures/012_Ceratosama.png)
