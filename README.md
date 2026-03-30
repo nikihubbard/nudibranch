@@ -21,6 +21,13 @@ nudibranch_palette("hypselodoris")
 ggplot(data, aes(x, y, colour = group)) +
   scale_colour_nudibranch("hypselodoris")
 
+ggplot(data, aes(x, y, fill = group)) +
+scale_fill_nudibranch("hydatina")
+
+# or specify palette, number, and order - for example:
+
+scale_fill_manual(values = nudibranch_palette("elysia", n=4)[c(3, 4, 1)])+
+
 ## Palettes
 
 ### Hydatina
