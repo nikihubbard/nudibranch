@@ -3,3 +3,5 @@
 S3method(print,nudibranch_palette)
 export(nudibranch_palette)
 export(nudibranch_palettes)
+export(scale_colour_nudibranch)
+export(scale_fill_nudibranch)
