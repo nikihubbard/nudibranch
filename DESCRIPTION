@@ -5,6 +5,8 @@ Authors@R:
     person("Niki", "Hubbard", , "nik.hubbard@gmail.com", role = c("aut", "cre"))
 Description: A collection of colour palettes derived from photographs of nudis and sea slugs I have encountered in intertidal zones and shallow rocky reefs around Sydney, Australia. Palettes can be used in base R or with ggplot2.
 License: MIT + file LICENSE
+Imports:
+    ggplot2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
