@@ -6,7 +6,7 @@ photographed in NSW, Australia.
 
 ## Installation
 install.packages("devtools")
-devtools::install_github("nikihubbard-source/nudibranch")
+devtools::install_github("nikihubbard/nudibranch")
 
 ## Usage
 library(nudibranch)
