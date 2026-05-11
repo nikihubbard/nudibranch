@@ -1,6 +1,6 @@
 Package: nudibranch
-Title: Colour Palettes Inspired by Sea Slugs and Nudibranchs of NSW
-Version: 0.0.1.0
+Title: Colour Palettes Inspired by Sea Slugs and Nudibranchs of Sydney
+Version: 0.0.1.1
 Authors@R: 
     person("Niki", "Hubbard", , "nik.hubbard@gmail.com", role = c("aut", "cre"))
 Description: A collection of colour palettes derived from photographs of nudis and sea slugs I have encountered in intertidal zones and shallow rocky reefs around Sydney, Australia. Palettes can be used in base R or with 'ggplot2'.
