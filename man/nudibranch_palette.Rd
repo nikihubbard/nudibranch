@@ -15,7 +15,9 @@ all available palette names.}
 \item{type}{Either "discrete" or "continuous".}
 }
 \value{
-A character vector of hex colour codes.
+A character vector of hex colour codes.\code{nudibranch_palette}. The palette name is stored as an attribute.
+If \code{name} is NULL, returns a named list of all available palettes
+invisibly.
 }
 \description{
 Get a nudibranch colour palette

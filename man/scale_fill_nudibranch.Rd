@@ -15,6 +15,11 @@ scale_fill_nudibranch(name, n = NULL, type = "discrete", ...)
 
 \item{...}{Additional arguments passed to ggplot2}
 }
+\value{
+A ggplot2 scale object that can be added to a ggplot. Specifically
+a \code{ScaleDiscrete} object created by
+\code{\link[ggplot2]{scale_fill_manual}}
+}
 \description{
 ggplot2 fill scale using a nudibranch palette
 }

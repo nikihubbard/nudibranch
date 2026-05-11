@@ -15,6 +15,11 @@ scale_colour_nudibranch(name, n = NULL, type = "discrete", ...)
 
 \item{...}{Additional arguments passed to ggplot2}
 }
+\value{
+A ggplot2 scale object that can be added to a ggplot. Specifically
+a \code{ScaleDiscrete} object created by
+\code{\link[ggplot2]{scale_colour_manual}}
+}
 \description{
 ggplot2 colour scale using a nudibranch palette
 }

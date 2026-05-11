@@ -11,6 +11,10 @@
 
 \item{...}{Additional arguments (ignored)}
 }
+\value{
+Invisibly returns \code{x}. Called for its side effect of
+printing the palette name and hex colour codes to the console.
+}
 \description{
 Print a nudibranch palette
 }

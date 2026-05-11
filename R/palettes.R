@@ -25,7 +25,9 @@ nudibranch_palettes <- list(
 #'   all available palette names.
 #' @param n Number of colours to return. If NULL, returns all colours.
 #' @param type Either "discrete" or "continuous".
-#' @return A character vector of hex colour codes.
+#' @return A character vector of hex colour codes.\code{nudibranch_palette}. The palette name is stored as an attribute.
+#'   If \code{name} is NULL, returns a named list of all available palettes
+#'   invisibly.
 #' @export
 #' @examples
 #' nudibranch_palette("hypselodoris")
@@ -54,6 +56,8 @@ nudibranch_palette <- function(name = NULL, n = NULL, type = c("discrete", "cont
 #'
 #' @param x A nudibranch_palette object
 #' @param ... Additional arguments (ignored)
+#' @return Invisibly returns \code{x}. Called for its side effect of
+#'   printing the palette name and hex colour codes to the console.
 #' @export
 print.nudibranch_palette <- function(x, ...) {
   cat("Nudibranch palette:", attr(x, "name"), "\n")
